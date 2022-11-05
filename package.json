@@ -1,0 +1,36 @@
+{
+  "name": "cyberforce-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.10.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.4",
+    "@mui/lab": "^5.0.0-alpha.105",
+    "@mui/material": "^5.10.11",
+    "ftp": "^0.3.10",
+    "ftp-client": "^0.2.2",
+    "mongoose": "^6.7.1",
+    "multer": "^1.4.5-lts.1",
+    "next": "13.0.0",
+    "next-connect": "^0.13.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.7",
+    "@types/node": "18.11.5",
+    "@types/react": "18.0.23",
+    "@types/react-dom": "18.0.7",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.0",
+    "typescript": "4.8.4"
+  }
+}
